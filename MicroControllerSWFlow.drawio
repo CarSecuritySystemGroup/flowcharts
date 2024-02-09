@@ -1,13 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T23:50:06.401Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="57F6PeOWwbxC-IZErWaM" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-09T18:41:45.991Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="smO_-3oCDvQlsGQtY_Dw" version="23.1.2" type="github">
   <diagram name="Page-1" id="v1OISPPC2CIppKCgdL-t">
-    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1004" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-1" value="Check Movement&amp;nbsp;&lt;br&gt;(PIR Sensor)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sEyNhKopgO2MTpxVOQxi-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="260" y="381" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sEyNhKopgO2MTpxVOQxi-1" value="Check Movement&amp;nbsp;&lt;br&gt;(PIR Sensor)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="141" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="sEyNhKopgO2MTpxVOQxi-1">
+        <mxCell id="sEyNhKopgO2MTpxVOQxi-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="sEyNhKopgO2MTpxVOQxi-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="171" as="sourcePoint" />
             <mxPoint x="350" y="101" as="targetPoint" />
@@ -18,28 +21,28 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sEyNhKopgO2MTpxVOQxi-1">
+        <mxCell id="sEyNhKopgO2MTpxVOQxi-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="sEyNhKopgO2MTpxVOQxi-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420" y="341" as="sourcePoint" />
             <mxPoint x="420" y="261" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-4" value="No movement detected" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sEyNhKopgO2MTpxVOQxi-4" value="No movement detected" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="71" width="115" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-5" value="Movement&lt;br&gt;detected" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sEyNhKopgO2MTpxVOQxi-5" value="Movement&lt;br&gt;detected" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="216" width="115" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-6" value="Start recording&lt;br&gt;(Camera)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sEyNhKopgO2MTpxVOQxi-6" value="Start Video Stream" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="411" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sEyNhKopgO2MTpxVOQxi-7" target="sEyNhKopgO2MTpxVOQxi-6">
+        <mxCell id="sEyNhKopgO2MTpxVOQxi-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sEyNhKopgO2MTpxVOQxi-7" target="sEyNhKopgO2MTpxVOQxi-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-7" value="Check for Keycard&lt;br&gt;(RFID)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sEyNhKopgO2MTpxVOQxi-7" value="Check for Keycard&lt;br&gt;(RFID)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="261" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sEyNhKopgO2MTpxVOQxi-7">
+        <mxCell id="sEyNhKopgO2MTpxVOQxi-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="sEyNhKopgO2MTpxVOQxi-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420" y="341" as="sourcePoint" />
             <mxPoint x="520" y="171" as="targetPoint" />
@@ -48,16 +51,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-10" value="Keycard&lt;br&gt;found" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sEyNhKopgO2MTpxVOQxi-10" value="Keycard&lt;br&gt;found" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="520" y="231" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-12" value="Keycard not found" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="430" y="321" width="60" height="30" as="geometry" />
+        <mxCell id="sEyNhKopgO2MTpxVOQxi-12" value="Keycard not found" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="430" y="320" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-14" value="Get vehicle location&lt;br&gt;(google api)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sEyNhKopgO2MTpxVOQxi-14" value="Get vehicle location&lt;br&gt;(google api)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="445" y="411" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="sEyNhKopgO2MTpxVOQxi-14">
+        <mxCell id="sEyNhKopgO2MTpxVOQxi-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="sEyNhKopgO2MTpxVOQxi-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420" y="361" as="sourcePoint" />
             <mxPoint x="510" y="341" as="targetPoint" />
@@ -66,10 +69,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="260" y="381" width="330" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="sEyNhKopgO2MTpxVOQxi-17" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="461" as="sourcePoint" />
             <mxPoint x="420" y="511" as="targetPoint" />
@@ -78,7 +78,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="sEyNhKopgO2MTpxVOQxi-18" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="510" y="461" as="sourcePoint" />
             <mxPoint x="420" y="511" as="targetPoint" />
@@ -87,16 +87,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-19" value="Check if system is disarmed&lt;br&gt;(from app or rfid)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sEyNhKopgO2MTpxVOQxi-19" value="Check if system is disarmed&lt;br&gt;(from rfid)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="551" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="sEyNhKopgO2MTpxVOQxi-19">
+        <mxCell id="sEyNhKopgO2MTpxVOQxi-20" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="sEyNhKopgO2MTpxVOQxi-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420" y="511" as="sourcePoint" />
             <mxPoint x="470" y="461" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.896;entryY=1.133;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sEyNhKopgO2MTpxVOQxi-19" target="sEyNhKopgO2MTpxVOQxi-4">
+        <mxCell id="sEyNhKopgO2MTpxVOQxi-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.896;entryY=1.133;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sEyNhKopgO2MTpxVOQxi-19" target="sEyNhKopgO2MTpxVOQxi-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420" y="341" as="sourcePoint" />
             <mxPoint x="470" y="291" as="targetPoint" />
@@ -106,10 +106,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-22" value="system disarmed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sEyNhKopgO2MTpxVOQxi-22" value="system disarmed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="500" y="546" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="sEyNhKopgO2MTpxVOQxi-16">
+        <mxCell id="sEyNhKopgO2MTpxVOQxi-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="sEyNhKopgO2MTpxVOQxi-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="586" as="sourcePoint" />
             <mxPoint x="160" y="431" as="targetPoint" />
@@ -119,11 +119,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-24" value="system armed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sEyNhKopgO2MTpxVOQxi-24" value="system armed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="116" y="491" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sEyNhKopgO2MTpxVOQxi-25" value="Other side features:&lt;br&gt;- request current location&lt;br&gt;- view camera feed on demand" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="116" y="660" width="154" height="100" as="geometry" />
+        <mxCell id="KADAFyiomklb1wBN7da6-1" value="Send to Database Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="381" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
